@@ -126,7 +126,7 @@ a.router-link-active {
 .menu-branding .portrait {
   width: 250px;
   height: 250px;
-  /* background: url("../img/Me-11.jpg"); */
+  background: url("../assets/images/Me-11.jpg");
   border-radius: 50%;
   border: solid 3px #eece1a;
 }

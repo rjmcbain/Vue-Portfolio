@@ -8,14 +8,14 @@
       Let me tell you a few things...
     </h2>
     <div class="about-info">
-      <!-- <img src="img/Me-11.jpg" alt="Me" class="bio-image"> -->
+      <img src="../assets/images/Me-11.jpg" alt="Me" class="bio-image" />
 
       <div class="bio">
         <h3 class="text-secondary">BIO</h3>
         <p>
-          I am a Full Stack Web Developer based out of Las Vegas, NV. I have
-          used languages like JavaScript to create numerous web applications as
-          well as frameworks like React. I also have used Nodejs to create a
+          I am a Front End Developer based out of Las Vegas, NV. I have used
+          languages like JavaScript to create numerous web applications as well
+          as frameworks like Vue and React. I also have used Nodejs to create a
           handful of fullstack applications.
         </p>
       </div>

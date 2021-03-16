@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <Footer v-show="$route.name !== 'Home'" />
+  <!-- <Footer v-show="$route.name !== 'Home'" /> -->
   <router-view />
 </template>
 

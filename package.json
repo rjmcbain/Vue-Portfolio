@@ -7,8 +7,11 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@pdftron/webviewer": "^7.3.0",
     "core-js": "^3.6.5",
+    "require-vuejs": "^1.1.3",
     "vue": "^3.0.0",
+    "vue-pdf": "^4.2.0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
