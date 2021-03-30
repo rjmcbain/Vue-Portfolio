@@ -1,13 +1,14 @@
 <template>
-  <pdf src="../assets/newResume-2019.pdf"></pdf>
+  <img src="../assets/images/newResume-2019.jpg" />
+  <!-- <pdf src="../assets/images/newResume-2019.pdf"></pdf> -->
 </template>
 
 <script>
-import pdf from "vue-pdf";
+// import pdf from "vue-pdf";
 
 export default {
   components: {
-    pdf,
+    // pdf,
   },
 };
 </script>

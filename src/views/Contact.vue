@@ -10,8 +10,10 @@
     <div class="boxes">
       <div>
         <span class="text-secondary">Resume:</span>
-        <!-- <a href="src/assets/images/newResume-2019.pdf">Download</a> -->
-        <router-link :to="{ name: 'Resume' }" class="nav-link"></router-link>
+        <!-- <a href="@/assets/images/newResume-2019.pdf">Download</a> -->
+        <router-link :to="{ name: 'Resume' }" class="nav-link"
+          >Download</router-link
+        >
       </div>
       <div>
         <span class="text-secondary">Location:</span>
