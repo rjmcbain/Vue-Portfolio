@@ -1,13 +1,13 @@
 <template>
-  <div>
+  <!-- <div>
     <button @click="filteredItems">All</button>
     <button @click="filteredItems">JS</button>
     <button @click="filteredItems">Vue</button>
     <button @click="filteredItems">React</button>
-  </div>
+  </div> -->
   <div class="projects">
     <div class="item">
-      <div v-for="project in filteredItems" :key="project.id">
+      <div v-for="project in projects" :key="project.id">
         <a :href="project.url" target="_blank">
           <img :src="project.img" :alt="project.text" />
         </a>
@@ -111,14 +111,14 @@ export default {
       ],
     };
   },
-  computed: {
-    filteredItems() {
-      return this.projects.filter((item) => {
-        console.log(item.tech);
-        return item;
-      });
-    },
-  },
+  // computed: {
+  //   filteredItems() {
+  //     return this.projects.filter((item) => {
+  //       console.log(item.tech);
+  //       return item;
+  //     });
+  //   },
+  // },
 };
 </script>
 
