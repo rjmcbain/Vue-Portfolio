@@ -31,7 +31,7 @@ export default {
         {
           id: "9",
           text: "Live Chat",
-          img: "https://i.imgur.com/fnUqthn.png",
+          img: require("../assets/images/projects/chatroom.png"),
           url: "https://live-chat-a3bf2.web.app/chatroom",
           github: "https://github.com/rjmcbain/Vue-Live-Chat",
           tech: "vue",
@@ -39,7 +39,7 @@ export default {
         {
           id: "10",
           text: "Hiker Blog",
-          img: "https://i.imgur.com/2IdtNBa.png",
+          img: require("../assets/images/projects/hikerblog.png"),
           url: "https://hikers-blog.web.app/",
           github: "https://github.com/rjmcbain/Vue-Hiker-Blog",
           tech: "vue",
@@ -47,7 +47,7 @@ export default {
         {
           id: "1",
           text: "Loruki",
-          img: "https://i.imgur.com/dm6ChUc.png",
+          img: require("../assets/images/projects/loruki.jpg"),
           url: "https://loving-hugle-f16475.netlify.app/",
           github: "https://github.com/rjmcbain/loruki-website",
           tech: "js",
@@ -55,7 +55,7 @@ export default {
         {
           id: "2",
           text: "Wildfire Tracker",
-          img: "https://i.imgur.com/VfEoMvL.png",
+          img: require("../assets/images/projects/wildfire.jpg"),
           url: "https://stormy-shore-09827.herokuapp.com/",
           github: "https://github.com/rjmcbain/react-wildfire-tracker",
           tech: "react",
@@ -63,7 +63,7 @@ export default {
         {
           id: "3",
           text: "Gradius",
-          img: "https://i.imgur.com/UzIIfQE.png",
+          img: require("../assets/images/projects/gradius.png"),
           url: "https://rjmcbain.github.io/Gradius/",
           github: "https://github.com/rjmcbain/Gradius",
           tech: "js",
@@ -71,7 +71,7 @@ export default {
         {
           id: "4",
           text: "Github Users",
-          img: "https://i.imgur.com/67ETl8X.png",
+          img: require("../assets/images/projects/githubfinder.png"),
           url: "https://gifted-pare-8f6fde.netlify.app/",
           github: "https://github.com/rjmcbain/github-finder-JS",
           tech: "js",
@@ -79,7 +79,7 @@ export default {
         {
           id: "5",
           text: "Word Beater",
-          img: "https://i.imgur.com/nqqgYNF.png",
+          img: require("../assets/images/projects/wordbeater.png"),
           url: "https://rjmcbain.github.io/JS-wordbeater/",
           github: "https://github.com/rjmcbain/JS-wordbeater",
           tech: "js",
@@ -87,7 +87,7 @@ export default {
         {
           id: "6",
           text: "Drag N Drop",
-          img: "https://i.imgur.com/FG3niKe.png",
+          img: require("../assets/images/projects/dragndrop.png"),
           url: "https://reverent-pare-fb5fd0.netlify.app/",
           github: "https://github.com/rjmcbain/dragndrop",
           tech: "js",
@@ -95,7 +95,7 @@ export default {
         {
           id: "7",
           text: "DevConnector",
-          img: "https://i.imgur.com/0RnBvBd.jpg",
+          img: require("../assets/images/projects/devconnector.jpg"),
           url: "https://devconnectorreactapp.herokuapp.com/",
           github: "https://github.com/rjmcbain/devconnector",
           tech: "react",
@@ -103,7 +103,7 @@ export default {
         {
           id: "8",
           text: "Todos",
-          img: "https://i.imgur.com/LoixNR9.png",
+          img: require("../assets/images/projects/todos.png"),
           url: "https://rjmcbain.github.io/Todos_JS/",
           github: "https://github.com/rjmcbain/Todos_JS",
           tech: "js",
