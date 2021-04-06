@@ -39,7 +39,7 @@ export default {
         {
           id: "10",
           text: "Hiker Blog",
-          img: require("../assets/images/projects/hikerblog.png"),
+          img: require("@/assets/images/projects/hikerblog.png"),
           url: "https://hikers-blog.web.app/",
           github: "https://github.com/rjmcbain/Vue-Hiker-Blog",
           tech: "vue",
