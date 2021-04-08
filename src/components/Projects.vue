@@ -21,10 +21,15 @@
       </div>
     </div>
   </div>
+  <Modal :proj-data="projects" />
 </template>
 
 <script>
+import Modal from "../components/Modal";
 export default {
+  components: {
+    Modal,
+  },
   data() {
     return {
       projects: [
